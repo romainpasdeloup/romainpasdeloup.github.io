@@ -1,0 +1,99 @@
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+nav li a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.job  {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  color: black;
+}
+
+p {
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.categorie {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.cv {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.titre {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.titre_2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 35px;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+  }
+
+  .job  {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: black;
+  }
+
+  nav li a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  .titre {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .titre_2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    border-top: none;
+    padding-top: 20px;
+  }
+
+  .legende {
+    
+  }
+}
