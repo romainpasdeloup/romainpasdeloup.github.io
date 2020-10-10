@@ -523,7 +523,7 @@ img {
   width: 65%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(14 , 80px);
+  grid-template-rows: repeat(14 , 70px);
   grid-gap: 10px;
   margin-left: 35vw;
   margin-right: 3.5vw;
@@ -637,7 +637,7 @@ img {
 
 .faf2 {
   grid-column: span 4;
-  grid-row: span 3;
+  grid-row: span 6;
   background-image: url(../img/graphicdesign/faf1.jpg);
   background-size: cover;
   background-position: center;
@@ -645,7 +645,7 @@ img {
 
 .faf3 {
   grid-column: 5 / span 4;
-  grid-row: span 3;
+  grid-row: span 6;
   background-image: url(../img/graphicdesign/faf2.jpg);
   background-size: cover;
   background-position: center;
@@ -698,7 +698,7 @@ img {
 .blopi1 {
   grid-column: 2 / span 6;
   grid-row: span 6;
-  background-image: url(../img/graphicdesign/blopi_insta.jpg);
+  background-image: url(../img/graphicdesign/blopi_insta-copie.jpg);
   background-size: contain;
   background-position: center;
 }
@@ -793,7 +793,7 @@ img {
   width: 65%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(36 , 80px);
+  grid-template-rows: repeat(30 , 80px);
   grid-gap: 10px;
   margin-left: 35vw;
   margin-right: 3.5vw;
