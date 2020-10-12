@@ -190,7 +190,7 @@ nav li:hover {
 
 .portfolio-item.square.nine {
   grid-column: span 3;
-  grid-row: span 3;
+  grid-row: span 2;
   background-image: url(../img/graphicdesign/base.jpg);
   background-size: cover;
   background-position: center;
