@@ -621,7 +621,7 @@ img {
   width: 65%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(20 , 80px);
+  grid-template-rows: repeat(30 , 80px);
   grid-gap: 10px;
   margin-left: 35vw;
   margin-right: 3.5vw;
