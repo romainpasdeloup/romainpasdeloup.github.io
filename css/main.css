@@ -221,7 +221,7 @@ nav li:hover {
 .portfolio-item.long.one {
   grid-column: span 3;
   grid-row: span 4;
-  background-image: url(../img/poster/affiche_invité_FINALE.jpg);
+  background-image: url(../img/poster/affiche_invité.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
