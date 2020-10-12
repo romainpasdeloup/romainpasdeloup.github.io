@@ -757,7 +757,7 @@ img {
   width: 65%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(18 , 80px);
+  grid-template-rows: repeat(12 , 80px);
   grid-gap: 10px;
   margin-left: 35vw;
   margin-right: 3.5vw;
@@ -1508,7 +1508,7 @@ img {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(9 , 100px);
+    grid-template-rows: repeat(6 , 100px);
     grid-gap: 10px;
     margin-top: 30vh;
     margin-left: 5vw;
