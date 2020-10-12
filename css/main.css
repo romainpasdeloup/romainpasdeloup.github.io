@@ -807,14 +807,6 @@ img {
   background-position: center;
 }
 
-.robin2 {
-  grid-column: span 8;
-  grid-row: span 6;
-  background-image: url(../img/graphicdesign/robin/robin_site2.png);
-  background-size: cover;
-  background-position: center;
-}
-
 .robin3 {
   grid-column: span 8;
   grid-row: span 6;
