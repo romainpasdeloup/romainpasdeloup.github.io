@@ -98,16 +98,6 @@ nav li:hover {
   overflow: hidden;
 }
 
-.portfolio-item.large.four {
-  grid-column: span 3;
-  grid-row: span 2;
-  background-image: url(../img/poster/vignette_le_phare_final.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
-
 .portfolio-item.square.one {
   grid-column: span 2;
   grid-row: span 2;
@@ -1018,7 +1008,7 @@ img {
   width: 65%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(50 , 80px);
+  grid-template-rows: repeat(32 , 80px);
   grid-gap: 10px;
   margin-left: 35vw;
   margin-right: 3.5vw;
