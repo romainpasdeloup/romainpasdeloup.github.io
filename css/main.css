@@ -1259,7 +1259,7 @@ img {
 
   .portfolio {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(36 , 165px);
+    grid-template-rows: repeat(36 , 155px);
     margin-left: 5vw;
     margin-right: 5vw;
   }
