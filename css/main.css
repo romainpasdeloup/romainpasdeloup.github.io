@@ -111,7 +111,7 @@ nav li:hover {
 .portfolio-item.square.two {
   grid-column: span 3;
   grid-row: span 3;
-  background-image: url(../img/illustration/cover-sunrise.PNG);
+  background-image: url(../img/illustration/sunrise.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -621,7 +621,7 @@ img {
   width: 65%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(24 , 80px);
+  grid-template-rows: repeat(34 , 80px);
   grid-gap: 10px;
   margin-left: 35vw;
   margin-right: 3.5vw;
@@ -631,6 +631,14 @@ img {
   grid-column: 2 / span 6;
   grid-row: span 3;
   background-image: url(../img/graphicdesign/fjord_long.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.faf7 {
+  grid-column: 2 / span 6;
+  grid-row: span 5;
+  background-image: url(../img/graphicdesign/food_truck_site3.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -652,9 +660,17 @@ img {
 }
 
 .faf4 {
-  grid-column: 2 / span 6;
+  grid-column: span 8;
   grid-row: span 5;
-  background-image: url(../img/graphicdesign/faf4.jpg);
+  background-image: url(../img/graphicdesign/food_truck_site5.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.faf8 {
+  grid-column: span 8;
+  grid-row: span 5;
+  background-image: url(../img/graphicdesign/food_truck_site4.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -1503,7 +1519,7 @@ img {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(11 , 100px);
+    grid-template-rows: repeat(18 , 100px);
     grid-gap: 10px;
     margin-top: 50vh;
     margin-left: 5vw;
@@ -1511,6 +1527,11 @@ img {
   }
 
   .faf1 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .faf7 {
     grid-column: span 2;
     grid-row: span 2;
   }
@@ -1526,6 +1547,11 @@ img {
   }
 
   .faf4 {
+    grid-column: span 2;
+    grid-row: span 3;
+  }
+
+  .faf8 {
     grid-column: span 2;
     grid-row: span 3;
   }
