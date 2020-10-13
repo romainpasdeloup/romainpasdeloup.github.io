@@ -111,7 +111,7 @@ nav li:hover {
 .portfolio-item.square.two {
   grid-column: span 3;
   grid-row: span 3;
-  background-image: url(../img/illustration/sunrise.png);
+  background-image: url(../img/illustration/sunrisesite.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -698,7 +698,7 @@ img {
 .blopi1 {
   grid-column: 2 / span 6;
   grid-row: span 6;
-  background-image: url(../img/graphicdesign/blopi_insta-copie.jpg);
+  background-image: url(../img/graphicdesign/blopi_inte.jpg);
   background-size: contain;
   background-position: center;
 }
