@@ -111,7 +111,7 @@ nav li:hover {
 .portfolio-item.square.two {
   grid-column: span 3;
   grid-row: span 3;
-  background-image: url(../img/illustration/cover-sunrise.PNG);
+  background-image: url(../img/illustration/sunrise.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1341,6 +1341,7 @@ img {
   .portfolio-item.large.five {
     grid-column: span 2;
     grid-row: span 2;
+    background-image: url(../img/graphicdesign/chrono-mobile.png);
   }
 
   .portfolio-item.long.one {
@@ -1543,11 +1544,17 @@ img {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8 , 80px);
+    grid-template-rows: repeat(8 , 70px);
     grid-gap: 10px;
-    margin-top: 35vh;
+    margin-top: 38vh;
     margin-left: 5vw;
     margin-right: 5vw;
+  }
+
+  .fs {
+    text-align: center;
+    margin-top: 35vh;
+    margin-bottom: 4vh;
   }
 
   .sunrise-typo {
@@ -1565,7 +1572,7 @@ img {
     width: 90%;
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-top: 0vh;
+    margin-top: 10px;
   }
 
   .text-blopi {
@@ -1582,9 +1589,15 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(15 , 100px);
     grid-gap: 10px;
-    margin-top: 65vh;
+    margin-top: 90vh;
     margin-left: 5vw;
     margin-right: 5vw;
+  }
+
+  .fob{
+    text-align: center;
+    margin-top: 35vh;
+    margin-bottom: 4vh;
   }
 
   .blopi1 {
@@ -1652,11 +1665,17 @@ img {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(12 , 100px);
+    grid-template-rows: repeat(10 , 100px);
     grid-gap: 10px;
     margin-top: 30vh;
     margin-left: 5vw;
     margin-right: 5vw;
+  }
+
+  .for {
+    text-align: center;
+    margin-top: 35vh;
+    margin-bottom: 4vh;
   }
 
   .robin1 {
