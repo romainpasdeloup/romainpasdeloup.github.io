@@ -1516,12 +1516,12 @@ img {
   }
 
   .faf2 {
-    grid-column: span 1;
+    grid-column: span 2;
     grid-row: span 2;
   }
 
   .faf3 {
-    grid-column: span 1;
+    grid-column: span 2;
     grid-row: span 2;
   }
 
