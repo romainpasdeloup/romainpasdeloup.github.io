@@ -45,6 +45,15 @@ nav li:hover {
   text-align: center;
 }
 
+.showreel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  width: 55%;
+  border-radius: 20px;
+}
+
 .main-content {
   min-height: 100%;
 
@@ -54,9 +63,9 @@ nav li:hover {
   display: grid;
   height: 100%;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(16 , 140px);
+  grid-template-rows: repeat(15 , 140px);
   grid-gap: 10px;
-  margin-top: 5vh;
+  margin-top: 3vh;
   margin-left: 3vh;
   margin-right: 3vh;
 }
@@ -111,7 +120,7 @@ nav li:hover {
 .portfolio-item.square.two {
   grid-column: span 3;
   grid-row: span 3;
-  background-image: url(../img/illustration/cover-sunrise.PNG);
+  background-image: url(../img/illustration/sunrise.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -140,7 +149,7 @@ nav li:hover {
 
 .portfolio-item.square.five {
   grid-column: span 2;
-  grid-row: span 3;
+  grid-row: span 2;
   background-image: url(../img/illustration/mockup-ravie.jpg);
   background-size: cover;
   background-position: center;
@@ -229,8 +238,8 @@ nav li:hover {
 }
 
 .portfolio-item.long.two {
-  grid-column: span 3;
-  grid-row: span 4;
+  grid-column: span 2;
+  grid-row: span 3;
   background-image: url(../img/illustration/mockup-tough.jpg);
   background-size: cover;
   background-position: center;
@@ -248,6 +257,18 @@ nav li:hover {
   position: relative;
   overflow: hidden;
 }
+
+/*.portfolio-item {
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.portfolio-item:hover {
+  -webkit-filter: grayscale(0);
+  	filter: grayscale(0);
+}*/
 
 .portfolio-item::after {
   content: '';
@@ -1115,6 +1136,15 @@ img {
 ========================*/
 
 @media screen and (max-width: 1024px){
+  .showreel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    width: 70%;
+    border-radius: 20px;
+  }
+
   .portfolio {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(18 , 170px);
@@ -1271,6 +1301,15 @@ img {
   nav li {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .showreel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    width: 90%;
+    border-radius: 20px;
   }
 
   .portfolio {
