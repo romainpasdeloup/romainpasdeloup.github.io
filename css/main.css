@@ -1006,7 +1006,7 @@ img {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(12 , 80px);
+  grid-template-rows: repeat(9 , 80px);
   grid-gap: 30px;
   margin-left: 3vw;
   margin-right: 3vw;
