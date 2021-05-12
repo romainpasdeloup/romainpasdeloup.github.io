@@ -62,9 +62,9 @@ nav li:hover {
 .portfolio {
   display: grid;
   height: 100%;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(15 , 140px);
-  grid-gap: 10px;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(11 , 140px);
+  grid-gap: 7px;
   margin-top: 3vh;
   margin-left: 3vh;
   margin-right: 3vh;
@@ -99,7 +99,7 @@ nav li:hover {
 
 .portfolio-item.large.three {
   grid-column: span 3;
-  grid-row: span 3;
+  grid-row: span 2;
   background-image: url(../img/graphicdesign/robin/robin.jpg);
   background-size: cover;
   background-position: center;
@@ -108,8 +108,8 @@ nav li:hover {
 }
 
 .portfolio-item.square.one {
-  grid-column: span 2;
-  grid-row: span 2;
+  grid-column: span 3;
+  grid-row: span 3;
   background-image: url(../img/illustration/hope_final.jpg);
   background-size: cover;
   background-position: center;
@@ -127,50 +127,10 @@ nav li:hover {
   overflow: hidden;
 }
 
-.portfolio-item.square.three {
-  grid-column:  span 2;
-  grid-row: span 2;
-  background-image: url(../img/illustration/mockup-by.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.portfolio-item.square.four {
-  grid-column: span 2;
-  grid-row: span 2;
-  background-image: url(../img/animation/animation4.gif);
-  background-size: cover;
-  background-position: top;
-  position: relative;
-  overflow: hidden;
-}
-
-.portfolio-item.square.five {
-  grid-column: span 2;
-  grid-row: span 2;
-  background-image: url(../img/illustration/mockup-ravie.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
-
 .portfolio-item.square.six {
   grid-column: span 3;
   grid-row: span 3;
   background-image: url(../img/graphicdesign/blopi_insta.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.portfolio-item.square.seven {
-  grid-column: span 2;
-  grid-row: span 3;
-  background-image: url(../img/illustration/mockup-lino.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -189,7 +149,7 @@ nav li:hover {
 
 .portfolio-item.square.nine {
   grid-column: span 3;
-  grid-row: span 2;
+  grid-row: span 2 ;
   background-image: url(../img/graphicdesign/base.jpg);
   background-size: cover;
   background-position: center;
@@ -197,15 +157,6 @@ nav li:hover {
   overflow: hidden;
 }
 
-.portfolio-item.square.ten {
-  grid-column: span 2;
-  grid-row: span 2;
-  background-image: url(../img/animation/animation1.gif);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
 
 .portfolio-item.large.five {
   grid-column: span 3;
@@ -218,8 +169,8 @@ nav li:hover {
 }
 
 .portfolio-item.square.eleven {
-  grid-column: span 2;
-  grid-row: span 2;
+  grid-column: span 3;
+  grid-row: span 3;
   background-image: url(../img/animation/animation3.gif);
   background-size: cover;
   background-position: center;
@@ -238,8 +189,8 @@ nav li:hover {
 }
 
 .portfolio-item.long.two {
-  grid-column: span 2;
-  grid-row: span 3;
+  grid-column: span 3;
+  grid-row: span 4;
   background-image: url(../img/illustration/mockup-tough.jpg);
   background-size: cover;
   background-position: center;
@@ -250,7 +201,7 @@ nav li:hover {
 
 .portfolio-item.long.three {
   grid-column: span 3;
-  grid-row: span 4;
+  grid-row: span 3;
   background-image: url(../img/graphicdesign/bdx_rose.jpg);
   background-size: cover;
   background-position: center;
@@ -306,17 +257,10 @@ nav li:hover {
 }
 
 .categorie2 {
-    padding-top: 135px;
-    padding-bottom: 135px;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-.categorie2-2 {
-    padding-top: 135px;
-    padding-bottom: 135px;
-    padding-left: 65px;
-    padding-right: 65px;
+  padding-top: 135px;
+  padding-bottom: 135px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .categorie3 {
@@ -518,7 +462,8 @@ img {
   grid-column: 2 / span 6 ;
   grid-row: span 6;
   background-image: url(../img/illustration/hope_final.jpg);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -788,38 +733,62 @@ img {
   background-position: center;
 }
 
-/*// LETGO //*/
+/*// ANIMATION //*/
 
-.contenu-letgo {
-  width: 65%;
+.contenu-animation {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(18 , 80px);
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8 , 80px);
   grid-gap: 10px;
-  margin-left: 35vw;
-  margin-right: 3.5vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
-.letgo1 {
-  grid-column: 2 / span 6 ;
-  grid-row: span 6;
+.animation1 {
+  grid-column: span 3 ;
+  grid-row: span 4;
   background-image: url(../img/animation/let_go_1.gif);
   background-size: cover;
   background-position: center;
 }
 
-.letgo2 {
-  grid-column: span 6 ;
-  grid-row: span 6;
+.animation2 {
+  grid-column: span 3;
+  grid-row: span 4;
   background-image: url(../img/animation/let_go_2.gif);
   background-size: cover;
   background-position: center;
 }
 
-.letgo3 {
-  grid-column: 3 / span 6 ;
-  grid-row: span 6;
-  background-image: url(../img/animation/let_go_3.gif);
+.animation3 {
+  grid-column: span 3 ;
+  grid-row: span 4;
+  background-image: url(../img/animation/animation4.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.animation4 {
+  grid-column: span 3 ;
+  grid-row: span 4;
+  background-image: url(../img/animation/animation1.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.animation5 {
+  grid-column: span 3;
+  grid-row: span 4;
+  background-image: url(../img/animation/animation2.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.animation6 {
+  grid-column: span 3 ;
+  grid-row: span 4;
+  background-image: url(../img/animation/animation3.gif);
   background-size: cover;
   background-position: center;
 }
@@ -1033,101 +1002,215 @@ img {
 
 /*// CHRONO //*/
 
-.text-base {
-  position: fixed;
-  left: 0;
-  top: 25vh;
-  width: 25vw;
-  margin-left: 10vh;
-}
-
-.contenu-chrono {
-  width: 65%;
+.contenu-logo {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(32 , 80px);
-  grid-gap: 10px;
-  margin-left: 35vw;
-  margin-right: 3.5vw;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(12 , 80px);
+  grid-gap: 30px;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
-.chrono1 {
-  grid-column: 2 / span 6;
-  grid-row: span 4;
+.logo1 {
+  grid-column: span 3 ;
+  grid-row: span 3;
   background-image: url(../img/graphicdesign/chrono-01.png);
   background-size: cover;
   background-position: center;
 }
 
-.chrono2 {
-  grid-column: 2 / span 6;
-  grid-row: span 4;
-  background-image: url(../img/graphicdesign/chrono-02.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.chrono3 {
-  grid-column: span 4;
-  grid-row: span 4;
+.logo2 {
+  grid-column: span 3;
+  grid-row: span 3;
   background-image: url(../img/graphicdesign/chrono-03.png);
   background-size: cover;
   background-position: center;
 }
 
-.chrono4 {
-  grid-column: span 4;
-  grid-row: span 4;
-  background-image: url(../img/graphicdesign/chrono-04.png);
+.logo3 {
+  grid-column: span 3 ;
+  grid-row: span 3;
+  background-image: url(../img/graphicdesign/robin/robin.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.chrono5 {
-  grid-column: span 8;
-  grid-row: span 5;
-  background-image: url(../img/graphicdesign/chrono-05.jpg);
+.logo4 {
+  grid-column: span 3 ;
+  grid-row: span 3;
+  background-image: url(../img/graphicdesign/base.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.chrono6 {
-  grid-column: span 8;
-  grid-row: span 5;
-  background-image: url(../img/graphicdesign/chrono-06.jpg);
+.logo5 {
+  grid-column: span 3;
+  grid-row: span 3;
+  background-image: url(../img/graphicdesign/blopi4.jpg);
+  background-size: 150%;
+  background-position: center;
+}
+
+.logo6 {
+  grid-column: span 3 ;
+  grid-row: span 3;
+  background-image: url(../img/graphicdesign/bx_rose.jpg);
   background-size: cover;
   background-position: center;
 }
 
-.chrono7 {
-  grid-column: span 4;
-  grid-row: span 5;
-  background-image: url(../img/graphicdesign/chrono-07.png);
-  background-size: cover;
-  background-position: bottom;
+.logo7 {
+  grid-column: span 3 ;
+  grid-row: span 3;
+  background-image: url(../img/graphicdesign/logo-carre.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.chrono8 {
-  grid-column: span 4;
-  grid-row: span 5;
-  background-image: url(../img/graphicdesign/chrono-08.png);
-  background-size: cover;
-  background-position: bottom;
+.logo8 {
+  grid-column: span 3 ;
+  grid-row: span 3;
+  background-image: url(../img/graphicdesign/food_truck_site2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.chrono9 {
-  grid-column: span 4;
-  grid-row: span 5;
-  background-image: url(../img/graphicdesign/chrono-09.png);
+.logo9 {
+  grid-column: span 3 ;
+  grid-row: span 3;
+  background-image: url(../img/graphicdesign/.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
-.chrono10 {
-  grid-column: span 4;
-  grid-row: span 5;
-  background-image: url(../img/graphicdesign/chrono-10.png);
+.logo10 {
+  grid-column: span 3 ;
+  grid-row: span 3;
+  background-image: url(../img/graphicdesign/.jpg);
   background-size: cover;
+  background-position: center;
+}
+/*// POSTERS //*/
+
+.contenu-posters {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(20 , 80px);
+  grid-gap: 10px;
+  margin-top: 30px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.posters1 {
+  grid-column: span 4;
+  grid-row: span 6;
+  background-image: url(../img/poster/affiche_invite.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.posters2 {
+  grid-column: 5 / span 4;
+  grid-row: 2 / span 4;
+  background-image: url(../img/poster/vignette.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.posters3 {
+  grid-column: span 4;
+  grid-row: 8 / span 4;
+  background-image: url(../img/poster/vignette_le_phare_final.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.posters4 {
+  grid-column: 5 / span 4;
+  grid-row: 7 / span 6;
+  background-image: url(../img/poster/affiche_phare.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.posters5 {
+  grid-column: 3 / span 4;
+  grid-row: 14 / span 7;
+  background-image: url(../img/illustration/mockup-ravie.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*// ILLUSTRATION //*/
+
+.contenu-illustration {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(18 , 80px);
+  grid-gap: 10px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.illustration1 {
+  grid-column: span 4;
+  grid-row: span 6;
+  background-image: url(../img/illustration/mockup-tough.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.illustration2 {
+  grid-column: span 4;
+  grid-row: span 6;
+  background-image: url(../img/illustration/mockup-by.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.illustration3 {
+  grid-column: span 4;
+  grid-row: span 6;
+  background-image: url(../img/illustration/mockup-kaboom.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.illustration4 {
+  grid-column: span 4;
+  grid-row: span 6;
+  background-image: url(../img/illustration/mockup-lino.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.illustration5 {
+  grid-column: span 4;
+  grid-row: span 6;
+  background-image: url(../img/illustration/hope_illu_final.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.illustration6 {
+  grid-column: span 4;
+  grid-row: span 6;
+  background-image: url(../img/illustration/sunrise2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -1314,7 +1397,7 @@ img {
 
   .portfolio {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(36 , 155px);
+    grid-template-rows: repeat(40 , 155px);
     margin-left: 5vw;
     margin-right: 5vw;
   }
@@ -1340,7 +1423,7 @@ img {
 
   .portfolio-item.square.one {
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 3;
   }
 
   .portfolio-item.square.two {
@@ -1360,12 +1443,12 @@ img {
 
   .portfolio-item.square.five {
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 4;
   }
 
   .portfolio-item.square.six {
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 3;
   }
 
   .portfolio-item.square.seven {
@@ -1401,7 +1484,7 @@ img {
 
   .portfolio-item.long.one {
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 4;
   }
 
   .portfolio-item.long.two {
