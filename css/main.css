@@ -120,7 +120,7 @@ nav li:hover {
 .portfolio-item.square.two {
   grid-column: span 3;
   grid-row: span 3;
-  background-image: url(../img/illustration/cover-sunrise.jpg);
+  background-image: url(../img/illustration/cover-sunrise.PNG);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1208,7 +1208,7 @@ img {
 .illustration6 {
   grid-column: span 4;
   grid-row: span 6;
-  background-image: url(../img/illustration/sunrise2-illustration.png);
+  background-image: url(../img/illustration/sunrise2-illustration.PNG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
