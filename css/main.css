@@ -120,7 +120,7 @@ nav li:hover {
 .portfolio-item.square.two {
   grid-column: span 3;
   grid-row: span 3;
-  background-image: url(../img/illustration/cover-sunrise.png);
+  background-image: url(../img/illustration/hope_final.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
