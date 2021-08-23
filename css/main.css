@@ -1680,7 +1680,7 @@ img {
 
   .portfolio {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(30 , 155px);
+    grid-template-rows: repeat(35 , 155px);
     margin-left: 5vw;
     margin-right: 5vw;
   }
