@@ -1168,18 +1168,11 @@ img {
 .logo9 {
   grid-column: span 3;
   grid-row: span 3;
-  background-image: url(../img/graphicdesign/trace-logos.PNG);
-  background-size: contain;
-  background-position: center;
-}
-
-.logo10 {
-  grid-column: span 3 ;
-  grid-row: span 3;
-  background-image: url(../img/graphicdesign/.jpg);
+  background-image: url(../img/graphicdesign/trace-logos.png);
   background-size: cover;
   background-position: center;
 }
+
 
 /*// POSTERS //*/
 
@@ -1470,7 +1463,7 @@ img {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(12 , 80px);
+    grid-template-rows: repeat(14 , 80px);
     grid-gap: 20px;
     margin-top: 1vh;
     margin-left: 5vw;
@@ -1520,14 +1513,10 @@ img {
   }
 
   .logo9 {
-    grid-column: span  2;
-    grid-row: span 2;
+    grid-column: span  4;
+    grid-row: span 3;
   }
 
-  .logo10 {
-    grid-column: span  2;
-    grid-row: span 2;
-  }
 
   .contenu-illustration {
     width: 100%;
@@ -2271,7 +2260,7 @@ img {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(17 , 100px);
+    grid-template-rows: repeat(19 , 100px);
     grid-gap: 20px;
     margin-top: 1vh;
     margin-left: 5vw;
@@ -2324,11 +2313,7 @@ img {
   .logo9 {
     grid-column: span  2;
     grid-row: span 2;
-  }
-
-  .logo10 {
-    grid-column: span  2;
-    grid-row: span 2;
+    background-size: cover;
   }
 
   .contenu-illustration {
@@ -2370,12 +2355,13 @@ img {
     grid-column: span 2;
     grid-row: span 4;
   }
-	
-.illustration7 {
+
+  .illustration7 {
     grid-column: span 2;
     grid-row: span 4;
   }
-.illustration8 {
+
+  .illustration8 {
     grid-column: span 2;
     grid-row: span 4;
   }
